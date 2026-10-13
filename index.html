@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="A mobile-friendly small business website demo">
+<title>BrightPath | Business Website Demo</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,sans-serif;line-height:1.6;color:#172033;background:#f5f7fb}
+header{background:#10213b;color:white;padding:20px}
+nav,main,footer{width:min(100% - 32px,900px);margin:auto}
+nav{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+a{color:inherit}
+.hero{padding:48px 0}
+h1{font-size:clamp(2rem,8vw,3.5rem);line-height:1.12;margin:0 0 16px}
+.hero p{max-width:560px;color:#526078}
+.button{display:inline-block;margin-top:12px;padding:12px 18px;border-radius:10px;background:#175cd3;color:white;text-decoration:none;font-weight:bold}
+.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin-bottom:40px}
+article{padding:20px;border:1px solid #e1e6ef;border-radius:16px;background:white}
+article h2{font-size:1.2rem}
+footer{padding:24px 0;border-top:1px solid #dce2ec;color:#526078}
+
+/* BrightPath upgrade v1 */
+html{scroll-behavior:smooth}
+body{background:#f4f7fc;color:#14213d}
+header{background:linear-gradient(125deg,#0b1730,#173f76);padding:22px 20px}
+nav{align-items:center}
+nav strong{font-size:1.35rem;letter-spacing:.4px}
+nav a{text-decoration:none;font-size:.95rem}
+nav a:hover{text-decoration:underline}
+.hero{padding:clamp(52px,12vw,100px) 0 76px}
+.hero>p:first-child{color:#175cd3;font-size:.78rem;font-weight:800;letter-spacing:2px}
+.hero h1{max-width:720px;letter-spacing:-1.5px;color:#10213b}
+.hero p{font-size:1.05rem}
+.button{box-shadow:0 8px 20px #175cd333;transition:transform .2s,box-shadow .2s}
+.button:hover{transform:translateY(-2px);box-shadow:0 12px 26px #175cd344}
+.services{gap:18px;margin:0 0 64px}
+article{padding:24px;border-color:#e0e7f2;border-radius:18px;box-shadow:0 8px 24px #10213b08;transition:transform .2s,box-shadow .2s}
+article:hover{transform:translateY(-3px);box-shadow:0 14px 30px #10213b12}
+article h2{color:#173f76;margin-top:0}
+article p{color:#526078}
+.contact{margin:0 0 56px;padding:30px;border-radius:22px;background:linear-gradient(130deg,#10213b,#1b4d86);color:white}
+.contact h2{font-size:1.65rem;margin:0 0 10px}
+.contact p{color:#e0eafa}
+.contact .button{background:white;color:#12345c;box-shadow:none}
+footer{font-size:.9rem}
+@media(max-width:480px){header{padding:18px 16px}.hero{padding:48px 0 56px}.contact{padding:24px 20px}}
+
+</style>
+</head>
+<body>
+<header>
+<nav aria-label="Main navigation">
+<strong>BrightPath</strong>
+<div class="nav-links"><a href="#services">Services</a> &nbsp; <a href="#contact">Contact</a></div>
+</nav>
+</header>
+<main>
+<section class="hero">
+<p>SMALL BUSINESS WEBSITE DEMO</p>
+<h1>A clearer online home for your business.</h1>
+<p>Help customers understand what you offer, find the information they need, and contact you from their phones.</p>
+<a class="button" href="#services">Explore services</a>
+</section>
+<section id="services" class="services" aria-label="Services">
+<article>
+<h2>Clear information</h2>
+<p>Present your services and essential details in a simple way.</p>
+</article>
+<article>
+<h2>Mobile-friendly layout</h2>
+<p>Make pages easier to read on smaller screens.</p>
+</article>
+<article>
+<h2>Simple navigation</h2>
+<p>Help visitors find the right information without confusion.</p>
+</article>
+</section>
+
+<section id="contact" class="contact">
+<h2>Ready for a clearer online presence?</h2>
+<p>This sample shows how a small business website can look and feel. For a real project, we can discuss your services, goals, and the right design for your customers.</p>
+<a class="button" href="#services">Explore the demo</a>
+</section>
+
+</main>
+<footer>
+Demonstration website only. BrightPath is a fictional sample business.
+</footer>
+</body>
+</html>
